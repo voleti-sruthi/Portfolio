@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="contactMebody">
+    <header>
+        <nav id="header">
+            <div class="logo navbar-items">
+                <p>VOLETI SRUTHI LAKSHMI</p>
+            </div>
+            <div class=" menu navbar-items">
+                <a href="index.html" value="home" class="menu-item">Home</a>
+                <a href="aboutMe.html" value="aboutMe" class="menu-item " >About me</a>
+                <a href="projects.html" value="projects" class="menu-item">Projects</a>
+                <a href="contactMe.html" value="contactMe" class="menu-item activeMenuItem">Contact Me</a>
+                <a href="images/193002124_SSN_Voleti Sruthi Lakshmi_BE_ECE_2023.pdf" download value="resume" class="menu-item" >Download Resume</a>
+            </div>
+            <div class="social-media navbar-items">
+                <a href="https://instagram.com/sruthi_voleti"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="https://github.com/voleti-sruthi"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </div>
+            <div class="ham" onclick="dropDown()">
+                <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="formBox dispbody">
+        <h2>Contact Me</h2>
+        <p>You will hear from Me at the earliest!</p>
+        <form action="https://formsubmit.co/voletisruthi31@gmail.com" method="POST">
+            <div class="nameInp">
+                <i class="fa fa-user icon"></i>
+                <input type="text" placeholder="Full Name" name="name" id="name">
+
+            </div>
+            <div class="mailInp">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="mail" id="mail" placeholder="Email">
+            </div>
+            <div class="phoneInp">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" name="phone" id="phone" placeholder="Phone">
+            </div>
+            <div class="queryInp">
+                <textarea name="textarea" id="textarea" cols="30" rows="5"
+                    placeholder="Any comment or your query"></textarea>
+            </div>
+            <div class="submitBtn">
+                <button id="btn">Send</button>
+            </div>
+        </form>
+        <p class="extra">You can also contact me at 970-4560-544</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body class="projectbody">
+    <header>
+        <nav id="header">
+            <div class="logo navbar-items">
+                <p>VOLETI SRUTHI LAKSHMI</p>
+            </div>
+            <div class=" menu navbar-items">
+                <a href="index.html" value="home" class="menu-item ">Home</a>
+                <a href="aboutMe.html" value="aboutMe" class="menu-item">About me</a>
+                <a href="projects.html" value="projects" class="menu-item activeMenuItem">Projects</a>
+                <a href="contactMe.html" value="contactMe" class="menu-item">Contact Me</a>
+                <a href="./images/193002124_SSN_Voleti Sruthi Lakshmi_BE_ECE_2023.pdf" value="resume" class="menu-item" download="RESUME">Download Resume</a>
+            </div>
+            <div class="social-media navbar-items">
+                <a href="https://instagram.com/sruthi_voleti"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="https://github.com/voleti-sruthi"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </div>
+            <div class="ham" onclick="dropDown()">
+                <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="container ">
+        <ul class="projectsSpace">
+            <li class="filter active" data-filter="all">all</li>
+            <li class="filter" data-filter="webDev">Web Development</li>
+            <li class="filter" data-filter="calculators">Calculators</li>
+            <li class="filter" data-filter="games">Games</li>
+            <li class="filter" data-filter="java">Java</li>
+            <li class="filter" data-filter="javaTDD">Java TDD</li>
+        </ul>
+        <div class="product">
+            <div class="itembox calculators webDev">
+                <div class="projectName" data-item="games"><img src="images/calculator.png" alt=""></div>
+                <div class="whenHovered layer">
+                    <p>BASIC CALCULATOR</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/calculator"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a href="https://calculator-vs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox calculators webDev">
+                <div class="projectName" data-item="games"><img src="images/emi-calculator.png" alt=""></div>
+                <div class="whenHovered layer">
+                    <p>EMI CALCULATOR</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/EMI-Calculator"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a href="https://emi-calculator-vs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox calculators webDev">
+                <div class="projectName" data-item="games"><img src="images/money-exchage-calculator.png" alt=""></div>
+                <div class="whenHovered layer">
+                    <p>MONEY EXCHANGE CALCULATOR</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/Money-Exchange-Calculator"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a href="https://money-exchange-calculator-vs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox webDev">
+                <div class="projectName" data-item="games"><img src="images/grid.png" alt=""></div>
+                <div class="whenHovered layer">
+                    <p>GRID</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/grid"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a href="https://grid-vs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox webDev">
+                <div class="projectName" data-item="games"><img src="images/RGB-color-mixer.png" alt=""></div>
+                <div class="whenHovered layer">
+                    <p>RGB COLOR MIXER</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/RGB-Color-Mixer"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a href="https://rgb-color-mixer.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox webDev">
+                <div class="projectName" data-item="games"><img src="images/digital-clock.png" alt=""></div>
+                <div class="whenHovered layer">
+                    <p>DIGITAL CLOCK</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/digital-clock"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a href="https://digital-clock-vs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="itembox games webDev">
+                <div class="projectName" data-item="games"><img src="images/numberGueesingGame.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>NUMBER GUESSING GAME</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/number-guessing-game"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="https://number-guessing-game-vs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java">
+                <div class="projectName" data-item="java"><img src="images/java logo.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>LAB ALLOCATOR</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/lab-allocation"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java calculators">
+                <div class="projectName" data-item="java"><img src="images/java logo.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>SALARY CALCULATOR</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/salary-calculator"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java">
+                <div class="projectName" data-item="java"><img src="images/java logo.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>PROBABLE TOPPER NUMBER</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/probable-topper-number-or-not"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java">
+                <div class="projectName" data-item="java"><img src="images/java logo.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>MANGO TREE CHECKER</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/mango-tree-checker"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java">
+                <div class="projectName" data-item="java"><img src="images/java logo.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>MOVIES</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/movies"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java javaTDD">
+                <div class="projectName" data-item="javaTdd"><img src="images/TDD.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>ARTHMETIC OPERATIONS</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/arithmetic-operations"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java javaTDD">
+                <div class="projectName" data-item="javaTdd"><img src="images/TDD.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>FIZZ BUZZ</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/fizz-buzz"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java javaTDD">
+                <div class="projectName" data-item="javaTdd"><img src="images/TDD.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>GEMOMERTY RECTANGLE</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/geometry-rectangle"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java javaTDD">
+                <div class="projectName" data-item="javaTdd"><img src="images/TDD.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>PROBABILITY CHECKER</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/probability-checker"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox java javaTDD">
+                <div class="projectName" data-item="javaTdd"><img src="images/TDD.png" alt=""></div>
+                <div class="whenHovered">
+                    <p>MEASURING UNITS</p>
+                    <div>
+                        <a href="https://github.com/voleti-sruthi/measuring-units"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
