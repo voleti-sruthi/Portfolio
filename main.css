@@ -100,8 +100,9 @@ h1{
     margin-top: 10%;
     color: grey;
     font-weight: bolder;
-    font-size:50px;
-    letter-spacing: 1px;
+    font-size:60px;
+    letter-spacing: 2px;
+    font-family: 'Tilt Prism', cursive;
 }
 .resumeDownload{
     background-color: #63daae;
@@ -138,7 +139,7 @@ h1{
 .aboutMeContainer{
     background: #f8f8f885;
     border-radius: 50px;
-    width: 74%;
+    width: 78%;
     margin: 7% 12%;
     justify-content: center;
 }
@@ -165,7 +166,7 @@ h1{
     padding-bottom: 15px;
     color: rgb(211, 67, 67);
     font-family: 'Tilt Prism', cursive;
-    font-size: 40px;
+    font-size: 38px;
 }
 .intro p{
     text-align: justify;
